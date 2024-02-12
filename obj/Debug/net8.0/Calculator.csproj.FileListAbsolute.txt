@@ -1,0 +1,14 @@
+E:\Curso\C#\curso-balta-c#\Calculator\bin\Debug\net8.0\Calculator.exe
+E:\Curso\C#\curso-balta-c#\Calculator\bin\Debug\net8.0\Calculator.deps.json
+E:\Curso\C#\curso-balta-c#\Calculator\bin\Debug\net8.0\Calculator.runtimeconfig.json
+E:\Curso\C#\curso-balta-c#\Calculator\bin\Debug\net8.0\Calculator.dll
+E:\Curso\C#\curso-balta-c#\Calculator\bin\Debug\net8.0\Calculator.pdb
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.dll
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.pdb
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\ref\Calculator.dll
