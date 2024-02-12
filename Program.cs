@@ -19,7 +19,8 @@ namespace Calculator
             Console.WriteLine("2- Subtração");
             Console.WriteLine("3- Divisão");
             Console.WriteLine("4- Multiplicação");
-            Console.WriteLine("5- Sair da aplicção");
+            Console.WriteLine("5- Area");
+            Console.WriteLine("6- Sair da aplicção");
 
             Console.WriteLine("----------------");
             Console.WriteLine("Selecione uma opção: ");
@@ -31,7 +32,8 @@ namespace Calculator
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
-                case 5: Exit(); break;
+                case 5: Area(); break;
+                case 6: Exit(); break;
                 default: Menu(); break;
             }
 
@@ -100,6 +102,21 @@ namespace Calculator
             float resultado = v1 * v2;
 
             Console.WriteLine($"\nO resultado é: {resultado}");
+            Console.ReadKey();
+            Menu();
+        }
+
+        static void Area()
+        {
+            Console.WriteLine("Digite o valor do comprimento:");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor da largura:");
+            float v2 = float.Parse(Console.ReadLine());
+
+            float resultado = v1 * v2;
+
+            Console.WriteLine($"O tamanho da area é de {resultado} M");
             Console.ReadKey();
             Menu();
         }
