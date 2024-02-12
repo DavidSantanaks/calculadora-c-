@@ -7,11 +7,33 @@ namespace Calculator
         static void Main(String[] args)
         {
 
-            //Soma();
-            //Subtracao();
-            //Divisao();
-            //Multiplicacao();
+            Menu();
+        }
 
+        static void Menu()
+        {
+
+            Console.Clear();
+            Console.WriteLine("Oque deseja fazer?");
+            Console.WriteLine("1- Soma");
+            Console.WriteLine("2- Subtração");
+            Console.WriteLine("3- Divisão");
+            Console.WriteLine("4- Multiplicação");
+            Console.WriteLine("5- Sair da aplicção");
+
+            Console.WriteLine("----------------");
+            Console.WriteLine("Selecione uma opção: ");
+            short res = short.Parse(Console.ReadLine());
+
+            switch (res)
+            {
+                case 1: Soma(); break;
+                case 2: Subtracao(); break;
+                case 3: Divisao(); break;
+                case 4: Multiplicacao(); break;
+                case 5: Exit(); break;
+                default: Menu(); break;
+            }
 
         }
 
@@ -29,6 +51,8 @@ namespace Calculator
 
             Console.WriteLine();
             Console.WriteLine($"O resultado da soma é: {resultado}");
+            Console.ReadKey();
+            Menu();
         }
 
         static void Subtracao()
@@ -45,6 +69,8 @@ namespace Calculator
             float resultado = v1 - v2;
             Console.WriteLine();
             Console.WriteLine($"O resultado da subtração é: {resultado}");
+            Console.ReadKey();
+            Menu();
         }
 
         static void Divisao()
@@ -58,6 +84,8 @@ namespace Calculator
 
             float resultado = v1 / v2;
             Console.WriteLine($"\nO valor da divisão é: {resultado}");
+            Console.ReadKey();
+            Menu();
         }
 
         static void Multiplicacao()
@@ -72,6 +100,15 @@ namespace Calculator
             float resultado = v1 * v2;
 
             Console.WriteLine($"\nO resultado é: {resultado}");
+            Console.ReadKey();
+            Menu();
+        }
+
+        static void Exit()
+        {
+            Console.Clear();
+            Console.WriteLine("Saindo da aplicação ");
+            System.Environment.Exit(0);
         }
     }
 }

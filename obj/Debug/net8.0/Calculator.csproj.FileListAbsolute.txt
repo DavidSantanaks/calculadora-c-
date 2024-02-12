@@ -12,3 +12,4 @@ E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\refint\Calculator.dll
 E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.pdb
 E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 E:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\ref\Calculator.dll
+e:\Curso\C#\curso-balta-c#\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
